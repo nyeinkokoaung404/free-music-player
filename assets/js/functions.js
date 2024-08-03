@@ -46,7 +46,7 @@ function AddDownload(id) {
             // add to download list
             var download_list = document.getElementById("download-list");
             var download_item = document.createElement("li");
-           
+           /*
            <li>
                     <div class="col">
                         
@@ -61,7 +61,6 @@ function AddDownload(id) {
                     </div>
                     <hr>
                     </li>
-               /*
            */
             // download_item.innerHTML = '<div class="col"><img src="'+data.image+'" width="50px"><div style="display: inline;"><span id="download-name">'+id+'</span><span id="download-album">'+data.album+'</span><br><span id="download-size">'+data.size+'</span><span id="download-status" style="color:green">Compiling.</span></div></div><hr>';
             download_item.innerHTML = `
